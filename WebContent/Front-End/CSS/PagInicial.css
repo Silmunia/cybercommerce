@@ -1,0 +1,70 @@
+body {
+	background-color: #A4036F;
+}
+
+#webpageArea {
+	position: relative;
+	background-color: #EEFFFF;
+	margin-top: -2vh;
+	margin-left: 5vw;
+	margin-bottom: -2vh;
+	height: fit-content;
+	min-height: 88.25vh;
+	width: 90vw;
+	padding-bottom: 3vh;
+}
+
+#fullCatalog {
+	display: table;
+	width: 93%;
+	height: 50vh;
+	margin: 9vh 3vw 0vh;
+}
+
+.productRow {
+	padding-left: 0.5vw;
+	margin-bottom: 15vh;
+}
+
+.productRow::after {
+	content: "";
+  	clear: both;
+  	display: table;
+}
+
+.productImage {
+	float: left;
+  	width: 19vw;
+  	height: 31vh;
+  	padding: 0.25vh 0.8vw;
+  	font-family: sans-serif;
+  	color: #111133;
+}
+
+.productImage a {
+	text-decoration: none;
+	color: #111133;
+}
+
+.productImage img {
+	width: 19vw;
+	height: 31vh;
+}
+
+#footerArea {
+	position: absolute;
+	width: 100%;
+	height: 10vh;
+	bottom: -10vh;
+	background-color: #111133;
+}
+
+#footerArea h2 {
+	position: relative;
+	font-family: sans-serif;
+	color: #EEFFFF;
+	font-size: 1.5vw;
+	margin: 0;
+	top: 4vh;
+	left: 3vw;
+}

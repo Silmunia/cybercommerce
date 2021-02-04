@@ -1,0 +1,137 @@
+body {
+	background-color: #A4036F;
+}
+
+#webpageArea {
+	position: relative;
+	background-color: #EEFFFF;
+	margin-top: -2vh;
+	margin-left: 5vw;
+	margin-bottom: -2vh;
+	height: fit-content;
+	min-height: 88.25vh;
+	width: 90vw;
+	padding-bottom: 3vh;
+}
+
+#cartArea {
+	position: relative;
+	width: 83vw;
+	margin-top: 10vh;
+	margin-left: 3vw;
+}
+
+#cartArea h1 {
+	color: #111133;
+	font-family: sans-serif;
+	margin-left: 1vw;
+	font-size: 3.5vw;
+	color: #111133;
+}
+
+#purchaseTotal {
+	position: absolute;
+	background-color: #7796CB;
+	top: 10vh;
+	left: 64vw;
+	width: 18vw;
+	height: 15vh;
+	font-family: sans-serif;
+	color: #EEFFFF;
+}
+
+#purchaseTotal h2 {
+	font-size: 2vw;
+	margin-left: 1vw;
+}
+
+#purchaseTotal h3 {
+	font-size: 1.5vw;
+	margin-left: 1vw;
+}
+
+#purchaseTotal #purchaseCart {
+	position: relative;
+	top: -6vh;
+	left: 11.5vw;
+	height: 4vh;
+	font-family: sans-serif;
+	background-color: #00FFFF;
+	font-size: 1vw;
+}
+
+.cartProduct {
+  	width: 61vw;
+  	height: 25vh;
+  	margin-top: -1vh;
+  	font-family: sans-serif;
+  	color: #111133;
+  	background-color: rgba(119, 150, 203, 30%);
+  	margin-bottom: 2vh;
+}
+
+.cartProduct img {
+	padding-top: 1vh;
+	padding-left: 1vw;
+	width: 15vw;
+	height: 23vh;
+}
+
+.cartProduct h2 {
+	position: relative;
+	font-size: 3vw;
+	margin-top: -20vh;
+	margin-left: 18vw;
+}
+
+.cartProduct h3 {
+	position: relative;
+	font-size: 2.5vw;
+	margin-top: 0;
+	margin-left: 18vw;
+}
+
+.cartProduct .changeProduct {
+	position: relative;
+	top: -10vh;
+	left: 32.5vw;
+	width: 4vw;
+	height: 5vh;
+	font-size: 1.5vw;
+	line-height: 1.5vw;
+	text-align: center;
+	color: #111133;
+	background-color: #EEFFFF;
+}
+
+.cartProduct .removeCart {
+	position: relative;
+	top: -10vh;
+	left: 38vw;
+	width: 8vw;
+	height: 5vh;
+	font-size: 1.5vw;
+	line-height: 1.5vw;
+	text-align: center;
+	white-space: normal;
+	color: #EEFFFF;
+	background-color: #A4036F;
+}
+
+#footerArea {
+	position: absolute;
+	width: 100%;
+	height: 10vh;
+	bottom: -10vh;
+	background-color: #111133;
+}
+
+#footerArea h2 {
+	position: relative;
+	font-family: sans-serif;
+	color: #EEFFFF;
+	font-size: 1.5vw;
+	margin: 0;
+	top: 4vh;
+	left: 3vw;
+}

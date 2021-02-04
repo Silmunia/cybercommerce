@@ -1,0 +1,165 @@
+@charset "UTF-8";
+#toppageArea {
+	position: relative;
+	background-color: #5E2BFF;
+	width: 100%;
+	height: 18vh;
+}
+
+#toppageArea h1 {
+	position: relative;
+	font-family: sans-serif;
+	font-size: 5vw;
+	margin: 0;
+	top: 5.5vh;
+	left: 3vw;
+	color: #EEFFFF;
+}
+
+#toppageArea h1 a {
+	text-decoration: none;
+	color: #EEFFFF;
+}
+
+#loginArea {
+	position: relative;
+	top: -3.5vh;
+	margin-left: 72vw;
+}
+
+#loginArea div {
+	margin-top: 0.5vh;
+}
+
+#loginArea input {
+	margin-left: 0.3vw;
+}
+
+#loginArea #user, #password {
+	width: 7vw;
+	height: 2.5vh;
+	font-size: 0.8vw;
+	line-height: 0.8vw;
+}
+
+#loginArea .loginButton {
+	width: 5vw;
+	height: 3.5vh;
+	font-size: 0.8vw;
+	line-height: 0.8vw;
+	padding: 0;
+	color: #111133;
+	background-color: #2274A5;
+}
+
+#loginArea div:nth-child(1) .loginButton {
+	color: #EEFFFF;
+}
+
+#loginArea div:nth-child(2) .loginButton {
+	background-color: #00FFFF;
+}
+
+#logoutArea {
+	position: relative;
+	width: 15vw;
+	top: -6vh;
+	margin-left: 70vw;
+	font-family: sans-serif;
+}
+
+#logoutArea h2 {
+	font-size: 2vw;
+	color: #EEFFFF;
+	margin-left: 0.4vw;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#logoutArea #logoutButton {
+	width: 15vw;
+	height: 3.5vh;
+	font-size: 1.25vw;
+	line-height: 0.8vw;
+	margin-top: -2vh;
+	padding: 0;
+	color: #EEFFFF;
+	background-color: #A4036F;
+}
+
+#navbarArea {
+	position: absolute;
+	width: 100%;
+	bottom: -6vh;
+	height: 6vh;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #2274A5;
+}
+
+#navbarArea li {
+	float: left;
+ 	display: inline-block;
+ 	width: 18vw;
+  	color: #EEFFFF;
+  	text-align: center;
+  	font-family: sans-serif;
+  	font-size: 1.5vw;
+	line-height: 1.5vw;
+	margin-left: 3.3vw;
+	padding-top: 1vw;
+  	height: 6vh;
+  	text-decoration: none;
+}
+
+#navbarArea li a {
+	color: #EEFFFF;
+	text-decoration: none;
+}
+
+#navbarArea li:hover {
+  background-color: #7796CB;
+}
+
+#clientBar {
+	position: absolute;
+	width: 100%;
+	bottom: -6vh;
+	height: 6vh;
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #2274A5;
+}
+
+#clientBar li {
+	float: left;
+ 	display: inline-block;
+ 	width: 14vw;
+  	color: #EEFFFF;
+  	text-align: center;
+  	font-family: sans-serif;
+  	font-size: 1.5vw;
+	line-height: 1.5vw;
+	margin-right: -0.8vw;
+	padding-top: 1vw;
+  	height: 6vh;
+  	text-decoration: none;
+}
+
+#clientBar li:nth-child(1) {
+	margin-left: 3.7vw;
+}
+
+#clientBar li a {
+	color: #EEFFFF;
+	text-decoration: none;
+}
+
+#clientBar li:hover {
+  background-color: #7796CB;
+}
