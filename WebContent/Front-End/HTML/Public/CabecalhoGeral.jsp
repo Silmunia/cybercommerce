@@ -7,6 +7,7 @@
 	<head>
 		<link href = "http://localhost:8080/cybercommerce/Front-End/CSS/CabecalhoGeral.css" rel = "stylesheet">
 		<script type = "text/javascript" src = "http://localhost:8080/cybercommerce/Front-End/JS/CabecalhoGeral.js"></script>
+		<title> Cybercommerce </title>
 	</head>
 	<%
 		String loginResult = (String) request.getAttribute("result");
@@ -14,7 +15,7 @@
 	%>
 			<div id = "toppageArea">
 				<h1><a href = "http://localhost:8080/cybercommerce/Front-End/HTML/PagInicial.jsp"> Cybercommerce </a></h1>
-		
+				<% if (request.getAttribute("restrict") != null && (Boolean) request.getAttribute("restrict")) { %><h2 id = "restrict"> Acesso Restrito! -> </h2> <% } %>
 				<form action = "http://localhost:8080/cybercommerce/LoginServlet" method = "post" id = "loginArea">
 					<div>
 						<input type = "text" name = "user" id = "user" placeholder = "Usuário" required>
@@ -41,7 +42,7 @@
 	%>
 			<div id = "toppageArea">
 				<h1><a href = "http://localhost:8080/cybercommerce/Front-End/HTML/PagInicial.jsp"> Cybercommerce </a></h1>
-		
+				<% if (request.getAttribute("restrict") != null && (Boolean) request.getAttribute("restrict")) { %><h2 id = "restrict"> Acesso Restrito! -> </h2> <% } %>
 				<div id = "logoutArea">
 					<h2> Olá, <%= usuario.getNome() %>! </h2>
 					<form action = "http://localhost:8080/cybercommerce/LogoutServlet" method = "post">
@@ -63,8 +64,8 @@
 			Admin usuario = (Admin) session.getAttribute("user");
 	%>
 			<div id = "toppageArea">
-				<h1><a href = "http://localhost:8080/cybercommerce/Front-End/HTML/PagInicial.jsp"> Cybercommerce </a></h1>
-		
+				<h1><a href = "http://localhost:8080/cybercommerce/Front-End/HTML/Admin/AreaAdmin-Dados.jsp"> Cybercommerce </a></h1>
+				<% if (request.getAttribute("restrict") != null && (Boolean) request.getAttribute("restrict")) { %><h2 id = "restrict"> Acesso Restrito! -> </h2> <% } %>
 				<div id = "logoutArea">
 					<h2> Olá, <%= usuario.getNome() %>! </h2>
 					<form action = "http://localhost:8080/cybercommerce/LogoutServlet" method = "post">

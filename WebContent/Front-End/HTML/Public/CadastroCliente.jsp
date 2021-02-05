@@ -35,7 +35,7 @@
 				%>
 					<h1> Cliente cadastrado com sucesso! </h1>
 				<%
-					} else if (resultadoProcesso.equals("ClientCreationError")) {
+					} else if (resultadoProcesso.equals("ClientCreationError") || resultadoProcesso.equals("AdminConflict")) {
 				%>
 						<h1> Cadastro de Novo Cliente </h1>
 						<h2> Login inválido! </h2>

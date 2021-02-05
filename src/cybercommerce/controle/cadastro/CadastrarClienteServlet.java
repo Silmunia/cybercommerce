@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import cybercommerce.modelo.admin.AdminNegocio;
 import cybercommerce.modelo.cliente.Cliente;
 import cybercommerce.modelo.cliente.ClienteNegocio;
 
@@ -29,7 +30,7 @@ public class CadastrarClienteServlet extends HttpServlet {
 		String clienteLogin = request.getParameter("login");
 		String clienteSenha = request.getParameter("senha");
 		String clienteConfirm = request.getParameter("confirmacao");
-		
+				
 		Cliente novoCliente = new Cliente();
 		novoCliente.setNome(clienteNome);
 		novoCliente.setEmail(clienteEmail);
@@ -41,13 +42,23 @@ public class CadastrarClienteServlet extends HttpServlet {
 			resultadoProcesso = "NonmatchingPasswords";
 			request.setAttribute("newClient", novoCliente);
 		} else {
-			ClienteNegocio clienteNegocio = new ClienteNegocio();
+			
+			AdminNegocio adminNegocio = new AdminNegocio();
 			try {
-				clienteNegocio.create(novoCliente);
-				resultadoProcesso = "ClientCreationSuccess";
-			} catch (Exception e) {
-				resultadoProcesso = "ClientCreationError";
+				adminNegocio.readOne(clienteLogin);
+				resultadoProcesso = "AdminConflict";
 				request.setAttribute("newClient", novoCliente);
+			} catch (Exception e1) {
+				
+				ClienteNegocio clienteNegocio = new ClienteNegocio();
+				try {
+					clienteNegocio.create(novoCliente);
+					resultadoProcesso = "ClientCreationSuccess";
+				} catch (Exception e2) {
+					
+					resultadoProcesso = "ClientCreationError";
+					request.setAttribute("newClient", novoCliente);
+				}
 			}
 		}
 		
