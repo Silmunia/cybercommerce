@@ -21,6 +21,15 @@
 	color: #EEFFFF;
 }
 
+#toppageArea #restrict {
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 1.75vw;
+	color: #111133;
+	left: 52vw;
+	bottom: 4vh;
+}
+
 #loginArea {
 	position: relative;
 	top: -3.5vh;
