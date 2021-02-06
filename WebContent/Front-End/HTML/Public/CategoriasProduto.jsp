@@ -24,25 +24,25 @@
 				<div class = "productRow">
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
-							<h3> R$99,99 </h3>
+							<h3> R$9,99 </h3>
 						</a>
 					</div>
 
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
-							<h3> R$99,99 </h3>
+							<h3> R$9,99 </h3>
 						</a>
 					</div>
 
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
-							<h3> R$99,99 </h3>
+							<h3> R$9,99 </h3>
 						</a>
 					</div>
 				</div>
@@ -50,25 +50,25 @@
 				<div class = "productRow">
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
-							<h3> R$99,99 </h3>
+							<h3> R$9,99 </h3>
 						</a>
 					</div>
 
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
-							<h3> R$99,99 </h3>
+							<h3> R$9,99 </h3>
 						</a>
 					</div>
 
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
-							<h3> R$99,99 </h3>
+							<h3> R$9,99 </h3>
 						</a>
 					</div>
 				</div>
