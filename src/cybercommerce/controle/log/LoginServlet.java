@@ -60,6 +60,7 @@ public class LoginServlet extends HttpServlet {
 				session.setAttribute("user", clienteEncontrado);
 			} else {
 				request.setAttribute("result", "InvalidPassword");
+				request.setAttribute("login", usuarioLogin);
 			}
 		}
 		
