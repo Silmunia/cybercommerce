@@ -18,12 +18,39 @@
 				<% if (request.getAttribute("restrict") != null && (Boolean) request.getAttribute("restrict")) { %><h2 id = "restrict"> Acesso Restrito! -> </h2> <% } %>
 				<form action = "http://localhost:8080/cybercommerce/LoginServlet" method = "post" id = "loginArea">
 					<div>
-						<input type = "text" name = "user" id = "user" placeholder = "Usuário" required>
+						<%
+							String requestResult = (String) request.getAttribute("result");
+							String requestLogin = (String) request.getAttribute("login");
+							
+							if (requestResult != null && requestResult.equals("InvalidUser")) {
+						%>
+								<input type = "text" name = "user" id = "userInvalid" placeholder = "Usuário" required>
+						<%
+							} else if (requestResult != null && requestResult.equals("InvalidPassword")) {
+						%>
+								<input type = "text" name = "user" id = "user" placeholder = "Usuário" value = <%= requestLogin %> required>
+						<%
+							} else {
+						%>
+								<input type = "text" name = "user" id = "user" placeholder = "Usuário" required>
+						<%
+							}
+						%>
 						<input type = "submit" value = "Login" class = "loginButton">
 					</div>
 		
 					<div>
-						<input type = "password" name = "password" id = "password" placeholder = "Senha" required>
+						<%
+							if (requestResult != null && requestResult.equals("InvalidPassword")) {
+						%>
+								<input type = "password" name = "password" id = "passwordInvalid" placeholder = "Senha" required>
+						<%
+							} else {
+						%>
+								<input type = "password" name = "password" id = "password" placeholder = "Senha" required>
+						<%
+							}
+						%>
 						<input type = "button" onclick = "onRegister()" value = "Cadastrar" class = "loginButton">
 					</div>
 				</form>
