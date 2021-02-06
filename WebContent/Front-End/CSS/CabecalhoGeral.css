@@ -51,6 +51,24 @@
 	line-height: 0.8vw;
 }
 
+#loginArea #userInvalid {
+	width: 7vw;
+	height: 2.5vh;
+	font-size: 0.8vw;
+	line-height: 0.8vw;
+	color: #EEFFFF;
+	background-color: #A4036F;
+}
+
+#loginArea #passwordInvalid {
+	width: 7vw;
+	height: 2.5vh;
+	font-size: 0.8vw;
+	line-height: 0.8vw;
+	color: #EEFFFF;
+	background-color: #A4036F;
+}
+
 #loginArea .loginButton {
 	width: 5vw;
 	height: 3.5vh;

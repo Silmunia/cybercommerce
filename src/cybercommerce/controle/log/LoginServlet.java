@@ -51,6 +51,9 @@ public class LoginServlet extends HttpServlet {
 				
 				HttpSession session = request.getSession(true);
 				session.setAttribute("user", adminEncontrado);
+			} else {
+				request.setAttribute("result", "InvalidPassword");
+				request.setAttribute("login", usuarioLogin);
 			}
 		} else if (clienteEncontrado != null) {
 			if (clienteEncontrado.getSenha().equals(usuarioSenha)) {
@@ -60,6 +63,7 @@ public class LoginServlet extends HttpServlet {
 				session.setAttribute("user", clienteEncontrado);
 			} else {
 				request.setAttribute("result", "InvalidPassword");
+				request.setAttribute("login", usuarioLogin);
 			}
 		}
 		
