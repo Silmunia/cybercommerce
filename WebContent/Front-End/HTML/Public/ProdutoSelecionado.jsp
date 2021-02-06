@@ -12,7 +12,7 @@
 			<%@ include file = "CabecalhoGeral.jsp" %>
 
 			<div id = "selectedProduct">
-				<img src = "../../Imagens/archer1360.png" alt = "Archer Hella EC-D 1360">
+				<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/archer1360.png" alt = "Archer Hella EC-D 1360">
 				<h2> Archer Hella EC-D 1360 </h2>
 				<h3> R$15299,99 </h3>
 				<input type = "button" onclick = "onAddToCart()" value = "Adicionar ao Carrinho" id = "addCart">

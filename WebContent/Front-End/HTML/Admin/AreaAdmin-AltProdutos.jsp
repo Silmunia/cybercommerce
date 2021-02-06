@@ -41,7 +41,7 @@
 								<input type = "number" name = "price" id = "price" placeholder = "Preço" required>
 								<input type = "number" name = "quantity" id = "quantity" placeholder = "Quantidade" required>
 		
-								<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+								<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/nicolaBlue.png" alt = "NiCola Blue">
 		
 								<select name = "categories" id = "categories">
 									<option value = "Bebidas"> Bebidas </option>

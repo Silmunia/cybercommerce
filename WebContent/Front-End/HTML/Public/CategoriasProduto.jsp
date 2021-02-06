@@ -24,7 +24,7 @@
 				<div class = "productRow">
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
+							<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
 							<h3> R$9,99 </h3>
 						</a>
@@ -32,7 +32,7 @@
 
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
+							<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
 							<h3> R$9,99 </h3>
 						</a>
@@ -40,7 +40,7 @@
 
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
+							<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
 							<h3> R$9,99 </h3>
 						</a>
@@ -50,7 +50,7 @@
 				<div class = "productRow">
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
+							<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
 							<h3> R$9,99 </h3>
 						</a>
@@ -58,7 +58,7 @@
 
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
+							<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
 							<h3> R$9,99 </h3>
 						</a>
@@ -66,7 +66,7 @@
 
 					<div class = "productImage">
 						<a href="ProdutoSelecionado.jsp">
-							<img src = "../../Imagens/nicolaBlue.png" alt = "NiCola Blue">
+							<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/nicolaBlue.png" alt = "NiCola Blue">
 							<h2> NiCola Blue </h2>
 							<h3> R$9,99 </h3>
 						</a>

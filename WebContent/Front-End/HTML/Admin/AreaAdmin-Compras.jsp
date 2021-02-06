@@ -56,27 +56,27 @@
 								<div id = "selectedPurchase">
 		
 									<div class = "product">
-										<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+										<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/archer1360.png" alt = "Archer Hella EC-D 1360">
 										<h2> Archer Hella EC-D 1360 </h2>
-										<h3> X unidades - R$99,99 </h3>
+										<h3> X unidades - R$15299,99 </h3>
 									</div>
 		
 									<div class = "product">
-										<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+										<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/archer1360.png" alt = "Archer Hella EC-D 1360">
 										<h2> Archer Hella EC-D 1360 </h2>
-										<h3> X unidades - R$99,99 </h3>
+										<h3> X unidades - R$15299,99 </h3>
 									</div>
 		
 									<div class = "product">
-										<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+										<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/archer1360.png" alt = "Archer Hella EC-D 1360">
 										<h2> Archer Hella EC-D 1360 </h2>
-										<h3> X unidades - R$99,99 </h3>
+										<h3> X unidades - R$15299,99 </h3>
 									</div>
 		
 									<div class = "product">
-										<img src = "../../nicolaBlue.jpg" alt = "NicolaBlue">
+										<img src = "http://localhost:8080/cybercommerce/Front-End/Imagens/archer1360.png" alt = "Archer Hella EC-D 1360">
 										<h2> Archer Hella EC-D 1360 </h2>
-										<h3> X unidades - R$99,99 </h3>
+										<h3> X unidades - R$15299,99 </h3>
 									</div>
 								</div>
 							</div>
